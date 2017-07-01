@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		88E4E2E51F0813C90062DE9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4E2E41F0813C90062DE9A /* main.m */; };
+		88E4E2ED1F0813E10062DE9A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4E2EC1F0813E10062DE9A /* Player.m */; };
+		88E4E2F01F0813F50062DE9A /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4E2EF1F0813F50062DE9A /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		88E4E2E11F0813C90062DE9A /* 2w1d6_snakesAndLadders_multiPlayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2w1d6_snakesAndLadders_multiPlayer; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E4E2E41F0813C90062DE9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88E4E2EB1F0813E10062DE9A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		88E4E2EC1F0813E10062DE9A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		88E4E2EE1F0813F50062DE9A /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		88E4E2EF1F0813F50062DE9A /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				88E4E2E41F0813C90062DE9A /* main.m */,
+				88E4E2EB1F0813E10062DE9A /* Player.h */,
+				88E4E2EC1F0813E10062DE9A /* Player.m */,
+				88E4E2EE1F0813F50062DE9A /* InputCollector.h */,
+				88E4E2EF1F0813F50062DE9A /* InputCollector.m */,
 			);
 			path = 2w1d6_snakesAndLadders_multiPlayer;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E4E2F01F0813F50062DE9A /* InputCollector.m in Sources */,
+				88E4E2ED1F0813E10062DE9A /* Player.m in Sources */,
 				88E4E2E51F0813C90062DE9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
