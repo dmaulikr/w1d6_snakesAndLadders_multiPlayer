@@ -23,7 +23,7 @@
 
 - (void)createPlayers:(NSInteger)numberOfPlayers
 {
-    for (int i = 0; i <= numberOfPlayers; i++)
+    for (int i = 1; i <= numberOfPlayers; i++)
     {
         Player *player = [[Player alloc]initWithName:[NSString stringWithFormat:@"Player %d", i ]];
         [self.players addObject:player];
