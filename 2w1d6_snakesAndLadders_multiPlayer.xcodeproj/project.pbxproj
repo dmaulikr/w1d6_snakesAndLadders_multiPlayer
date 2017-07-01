@@ -10,6 +10,8 @@
 		88E4E2E51F0813C90062DE9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4E2E41F0813C90062DE9A /* main.m */; };
 		88E4E2ED1F0813E10062DE9A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4E2EC1F0813E10062DE9A /* Player.m */; };
 		88E4E2F01F0813F50062DE9A /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4E2EF1F0813F50062DE9A /* InputCollector.m */; };
+		88E4E2F31F0817C20062DE9A /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4E2F21F0817C20062DE9A /* PlayerManager.m */; };
+		88E4E2F61F0817DB0062DE9A /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E4E2F51F0817DB0062DE9A /* Dice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		88E4E2EC1F0813E10062DE9A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		88E4E2EE1F0813F50062DE9A /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
 		88E4E2EF1F0813F50062DE9A /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		88E4E2F11F0817C20062DE9A /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		88E4E2F21F0817C20062DE9A /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
+		88E4E2F41F0817DB0062DE9A /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		88E4E2F51F0817DB0062DE9A /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,10 @@
 				88E4E2E41F0813C90062DE9A /* main.m */,
 				88E4E2EB1F0813E10062DE9A /* Player.h */,
 				88E4E2EC1F0813E10062DE9A /* Player.m */,
+				88E4E2F11F0817C20062DE9A /* PlayerManager.h */,
+				88E4E2F21F0817C20062DE9A /* PlayerManager.m */,
+				88E4E2F41F0817DB0062DE9A /* Dice.h */,
+				88E4E2F51F0817DB0062DE9A /* Dice.m */,
 				88E4E2EE1F0813F50062DE9A /* InputCollector.h */,
 				88E4E2EF1F0813F50062DE9A /* InputCollector.m */,
 			);
@@ -129,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E4E2F61F0817DB0062DE9A /* Dice.m in Sources */,
 				88E4E2F01F0813F50062DE9A /* InputCollector.m in Sources */,
 				88E4E2ED1F0813E10062DE9A /* Player.m in Sources */,
+				88E4E2F31F0817C20062DE9A /* PlayerManager.m in Sources */,
 				88E4E2E51F0813C90062DE9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

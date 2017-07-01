@@ -1,5 +1,5 @@
 //
-//  Player.h
+//  Dice.h
 //  2w1d6_snakesAndLadders_multiPlayer
 //
 //  Created by Seantastic31 on 01/07/2017.
@@ -8,11 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Player : NSObject
+@interface Dice : NSObject
 
-@property (nonatomic) NSInteger currentSquare;
-@property (strong, nonatomic) NSString *name;
+@property (nonatomic) NSInteger dieValue;
 
-- (instancetype)initWithName:(NSString*)name;
+- (void)rollDice;
 
 @end
