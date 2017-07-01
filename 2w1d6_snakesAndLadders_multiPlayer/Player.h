@@ -10,4 +10,10 @@
 
 @interface Player : NSObject
 
+@property (nonatomic) NSInteger currentSquare;
+@property (strong, nonatomic) NSDictionary *gameLogic;
+@property (nonatomic) BOOL gameOver;
+
+- (void)rollDice;
+
 @end
